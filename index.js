@@ -2,3 +2,4 @@ function updateObjectWithKeyAndValue(object,key,value){ return  Object.assign({}
 function destructivelyUpdateObjectWithKeyAndValue(object,key,value){ Object.assign(object,{[key]: value}); return object;}
 var recipes={};
 function deleteFromObjectByKey(object,key){var copy=Object.assign({},object);delete copy[key];}
+function destructivelyDeleteFromObjectByKey(object,key){delete copy[key];}
